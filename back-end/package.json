@@ -1,0 +1,27 @@
+{
+  "name": "ong-vidade-gato",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --watch --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseCMessias/ong-vidade-gato.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseCMessias/ong-vidade-gato/issues"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "homepage": "https://github.com/JoseCMessias/ong-vidade-gato#readme"
+}
